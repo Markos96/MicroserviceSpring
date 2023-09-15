@@ -4,14 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="" />
+    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/data/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/controller/BikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/controller/BikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/entity/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/entity/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/repository/BikeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/repository/BikeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/service/BikeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-service/src/main/java/com/markos96/bike/service/BikeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/service/UserService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,15 +58,17 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "dev",
-    "last_opened_file_path": "/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/bike-service/pom.xml",
+    "last_opened_file_path": "/home/mint21/Documentos/Proyectos/Spring/Microservices-Spring/user-service/userservice/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "442cf4015509eda9c03e5ca3aceef752",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,10 +90,22 @@
       <option name="presentableId" value="Default" />
       <updated>1694795263202</updated>
       <workItem from="1694795264510" duration="1009000" />
+      <workItem from="1694797388025" duration="3701000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
