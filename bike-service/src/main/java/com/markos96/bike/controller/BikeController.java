@@ -16,9 +16,7 @@ public class BikeController {
     private BikeService bikeService;
 
     @PostMapping
-    public ResponseEntity<Bike> saveBike(@RequestBody Bike bike){
-        return ResponseEntity.ok(bikeService.saveBike(bike));
-    }
+    public ResponseEntity<Bike> saveBike(@RequestBody Bike bike){return ResponseEntity.ok(bikeService.saveBike(bike));}
 
     @GetMapping
     public ResponseEntity<List<Bike>> getAllBikes(){
@@ -26,8 +24,11 @@ public class BikeController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<Bike>> getBikeById(@PathVariable Integer id){
-        return ResponseEntity.ok(bikeService.getBikeById(id));
+    public ResponseEntity<Optional<Bike>> getBikeById(@PathVariable Integer id){return ResponseEntity.ok(bikeService.getBikeById(id));}
+
+    @GetMapping("/getBikes/{userId}")
+    public ResponseEntity<List<Bike>> getBikesByUserId(@PathVariable Integer userId){
+        return ResponseEntity.ok(bikeService.getBikesByUserId(userId));
     }
 
     @Autowired

@@ -1,33 +1,19 @@
-package com.markos96.bike.entity;
+package com.markos96.userservice.data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "bikes")
 public class Bike {
 
-    @Id
-    @GeneratedValue
-    private Integer id;
     private String brand;
+
     private String model;
     private Integer userId;
 
     public Bike(){}
 
-    public Bike(Integer id, String brand, String model, Integer userId) {
-        this.id = id;
+    public Bike(String brand, String model, Integer userId) {
         this.brand = brand;
         this.model = model;
         this.userId = userId;
     }
-
-    public Integer getId() {return id;}
-
-    public void setId(Integer id) {this.id = id;}
 
     public String getBrand() {return brand;}
 

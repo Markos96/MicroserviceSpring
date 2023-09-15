@@ -27,6 +27,13 @@ public class BikeService {
         return newBike;
     }
 
+    public List<Bike> getBikesByUserId(Integer userId){
+        if(!bikeRepository.existsById(userId)){
+            throw new RuntimeException("");
+        }
+        return bikeRepository.getBikeByUserId(userId);
+    }
+
     @Autowired
     public void setBikeRepository(BikeRepository bikeRepository) {this.bikeRepository = bikeRepository;}
 }
