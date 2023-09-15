@@ -1,6 +1,7 @@
 package com.markos96.userservice.controller;
 
 import com.markos96.userservice.data.Bike;
+import com.markos96.userservice.data.Car;
 import com.markos96.userservice.entity.User;
 import com.markos96.userservice.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,11 @@ public class UserController {
     @GetMapping("/getBikes/{userId}")
     public ResponseEntity<List<Bike>> getAllBikesByUserId(@PathVariable Integer userId){
         return ResponseEntity.ok(userService.getBikesByUserId(userId));
+    }
+
+    @GetMapping("/getCars/{userId}")
+    public ResponseEntity<List<Car>> getAllCarsByUserId(@PathVariable Integer userId){
+        return ResponseEntity.ok(userService.getCarsByUserId(userId));
     }
 
     @Autowired
