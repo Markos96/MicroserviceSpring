@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/feignClient/BikeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/feignClient/BikeFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/feignClient/CarFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/feignClient/CarFeignClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +85,7 @@
       <workItem from="1694795264510" duration="1009000" />
       <workItem from="1694797388025" duration="6194000" />
       <workItem from="1694911464609" duration="3957000" />
+      <workItem from="1694948052431" duration="401000" />
     </task>
     <servers />
   </component>
