@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "car-service", url = "http://localhost:8003/car")
+@FeignClient(name = "car-service")
 public interface CarFeignClient {
 
-    @GetMapping("/getCars/{userId}")
+    @GetMapping("car/getCars/{userId}")
     List<Car> getCarByUserId(@PathVariable Integer userId);
 }
