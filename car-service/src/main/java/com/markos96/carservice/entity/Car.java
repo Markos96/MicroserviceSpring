@@ -1,16 +1,14 @@
 package com.markos96.carservice.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+
+import javax.persistence.*;
 
 @Entity
-@Table(name = "/cars")
+@Table(name = "cars")
 public class Car {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String brand;
     private String model;
