@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../car-service/src/main/java/com/markos96/carservice/DTO/CarDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car-service/src/main/java/com/markos96/carservice/controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car-service/src/main/java/com/markos96/carservice/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car-service/src/main/java/com/markos96/carservice/repository/CarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../car-service/src/main/java/com/markos96/carservice/service/CarService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../car-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../car-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1694795263202</updated>
       <workItem from="1694795264510" duration="1009000" />
-      <workItem from="1694797388025" duration="5542000" />
+      <workItem from="1694797388025" duration="6194000" />
     </task>
     <servers />
   </component>
