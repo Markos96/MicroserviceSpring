@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    config:
+      enabled: true
+      # The url where the config-service is located is established with its respective port (It can be obtained from the application.yml of the config-service)
+      # The port is established in application.yml of the config-service
+      uri: http://localhost:8081
+
