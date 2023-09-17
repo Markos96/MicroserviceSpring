@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b26dd6c-0902-45ed-9d16-602e6eca9d4e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../config-data/user-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-data/user-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bike-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bike-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/markos96/userservice/controller/UserController.java" afterDir="false" />
@@ -70,6 +70,12 @@
       <recent name="com.markos96.userservice.data" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="user-service" />
@@ -90,7 +96,7 @@
       <workItem from="1694795264510" duration="1009000" />
       <workItem from="1694797388025" duration="6194000" />
       <workItem from="1694911464609" duration="3957000" />
-      <workItem from="1694948052431" duration="4998000" />
+      <workItem from="1694948052431" duration="6638000" />
     </task>
     <servers />
   </component>

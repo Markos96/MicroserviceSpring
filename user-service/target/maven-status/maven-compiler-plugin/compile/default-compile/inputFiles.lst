@@ -1,0 +1,10 @@
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/feignClient/BikeFeignClient.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/controller/UserController.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/UserServiceApplication.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/repository/UserRepository.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/feignClient/CarFeignClient.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/entity/User.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/DTO/UserDTO.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/data/Bike.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/service/UserService.java
+/home/mint21/Documentos/Proyectos/Spring/MicroserviceSpring/user-service/src/main/java/com/markos96/userservice/data/Car.java

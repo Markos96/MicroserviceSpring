@@ -1,0 +1,10 @@
+com/markos96/userservice/data/Car.class
+com/markos96/userservice/feignClient/CarFeignClient.class
+com/markos96/userservice/repository/UserRepository.class
+com/markos96/userservice/data/Bike.class
+com/markos96/userservice/DTO/UserDTO.class
+com/markos96/userservice/UserServiceApplication.class
+com/markos96/userservice/feignClient/BikeFeignClient.class
+com/markos96/userservice/service/UserService.class
+com/markos96/userservice/controller/UserController.class
+com/markos96/userservice/entity/User.class
