@@ -16,7 +16,9 @@ spring:
                 locator:
                     enabled: true
             routes:
+                # Name of microservice in bootstrap.yml
                 - id: user-service
+                # Uri with loadbalancer (LB)
                   uri: lb://user-service
                   # Value of @RequestMapping of the Controller
                   predicates:
