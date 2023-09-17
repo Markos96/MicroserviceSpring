@@ -1,20 +1,22 @@
 server:
+    # Multiple instance (Variable and dinamic port)
     port: ${PORT:${SERVER_PORT:0}}
 
-## Eureka 
-
+# Eureka configuration
 eureka:
     client:
         fetch-regitry: true
         register-with-eureka: true
+        
+        # Default port of Eureka
         service-url:
             default-zone: http://localhost:8761/eureka
+    # Multiple instance  (Dinamic hostname and port)     
     instance:
         instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
 
 
-## Resilience4j and CircuitBreaker
-
+# Resilience4j and CircuitBreaker
 resilience4j.circuitbreaker:
     instances:
         carsCircuitBreaker:
@@ -36,6 +38,7 @@ resilience4j.circuitbreaker:
             failureRateThreshold: 50
             eventConsumerBufferSize: 10
      
+# Integration with Zipkin
 spring:
     application:
         zipkin: http://localhost:9411

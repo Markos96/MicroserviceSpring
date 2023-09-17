@@ -1,9 +1,13 @@
 server:
     port: 8080
+
+# Eureka configuration
 eureka:
     client:
         fetch-regitry: true
         register-with-eureka: true
+        
+        # Default port of Eureka
         service-url:
             default-zone: http://localhost:8761/eureka
     instance:
